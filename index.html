@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Awesomebooks</title>
 </head>
 <body>
+    <main>
+        <h1>Awesome books</h1>
+    </main>
 
-    <header>
-        <h1>
-            Awesome books
-        </h1>
-    </header>
+    <section class="books"></section>
 
-    <div class="books"></div>
+    <hr>
 
-    <form action="" id="booksform">
-        <input type="text" name="title" placeholder="Title">
-        <br>
-        <br>
-        <input type="text" name="name" placeholder=" Athor">
-        <br>
-        <br>
-        <button id="addBook">Add</button>
-    </form>
+    <section id="form">
+        <h2>Add a new book</h2>
+        <form action="" id="booksform">
+            <input type="text" name="title" placeholder="Title">
+            <br>
+            <br>
+            <input type="text" name="name" placeholder=" Athor">
+            <br>
+            <br>
+            <button id="addBook">Add</button>
+        </form>
+    </section>
 
-    <script src="/form.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
