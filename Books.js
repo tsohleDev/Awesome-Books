@@ -1,4 +1,5 @@
 import Component from './Component.js';
+import Book from './Book.js';
 
 class Books {
   constructor(array) {
@@ -26,8 +27,13 @@ class Books {
       localStorage.setItem('books', string);
     };
 
-    add(book, myBooks) {
-      const node = Component.createBooksElements(book, myBooks);
+    add(form) {
+      if (!form.title.value || !form.name.value) { return; }
+
+      const book = new Book(this.count, form.title.value, form.name.value);
+      form.title.value = '';
+      form.name.value = '';
+      const node = Component.createBooksElements(book, this);
       book.node = node;
       this.array.push(book);
       this.updateStorage();

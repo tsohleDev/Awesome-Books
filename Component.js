@@ -28,6 +28,22 @@ class Component {
 
       return div;
     };
+
+    static loadFromStorage(myBooks) {
+      const storage = localStorage.getItem('books');
+      if (!storage) { return; }
+
+      const objects = storage.split('|');
+
+      if (objects[0] === '') { return; }
+
+      myBooks.array = objects.map((object) => JSON.parse(object));
+      myBooks.array.forEach((book, index) => {
+        const node = Component.createBooksElements(book, myBooks);
+        book.node = node;
+        Component.makeGrey(book, index);
+      });
+    }
 }
 
 export default Component;
