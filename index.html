@@ -8,27 +8,48 @@
     <title>Awesomebooks</title>
 </head>
 <body>
+    <header>
+        <p>Awesome books</p>
+
+        <nav>
+            <a id="link" >List</a>
+            <a id="link" >Add new</a>
+            <a id="link" >Contact</a>
+        </nav>
+    </header>
+
     <main>
-        <h1>Awesome books</h1>
+        <h1 id="heading">All awesome books</h1>
+
+        <section id="list" class="books"></section>
+
+        <section id="form">
+            <form action="" id="booksform">
+                <input type="text" name="title" placeholder="Title">
+                <br>
+                <br>
+                <input type="text" name="name" placeholder=" Athor">
+                <br>
+                <br>
+                <button id="addBook">Add</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <p>Do you have any question or just want to say</p>
+            <p>You can reach out to us!</p>
+
+            <ul>
+                <li>Our email mokhemisitsohle@gmail.com</li>
+                <li>Our phone number: +27605560512</li>
+                <li>Our adress Welkom, Free State, South Africa</li>
+            </ul>
+        </section>
     </main>
 
-    <section class="books"></section>
-
-    <hr>
-
-    <section id="form">
-        <h2>Add a new book</h2>
-        <form action="" id="booksform">
-            <input type="text" name="title" placeholder="Title">
-            <br>
-            <br>
-            <input type="text" name="name" placeholder=" Athor">
-            <br>
-            <br>
-            <button id="addBook">Add</button>
-        </form>
-    </section>
-
+    <footer>
+        <p>Copyrights reserved <span>Tsohle Mokhemisi</span></p>
+    </footer>
     <script type="module" src="script.js"></script>
 </body>
 </html>
