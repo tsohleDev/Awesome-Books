@@ -221,9 +221,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give a star and fork it to get live updates
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,13 +241,13 @@ I would like to thank...
 
 <!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
 
-- **[Can it run in VScode]**
+- **Can it run in VScode**
 
-  - [Yes, install live server and run it through live servers, or install npm and execute npm run]
+  - Yes, install live server and run it through live servers, or install npm and execute npm run
 
-- **[What is a dynamic website]**
+- **What is a dynamic website**
 
-  - [Different to static website, a dynamic website is a website that shows the data based on user interactions]
+  - Different to static website, a dynamic website is a website that shows the data based on user interactions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
