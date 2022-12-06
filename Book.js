@@ -5,8 +5,6 @@ class Book {
     this.name = name;
     this.node = null;
   }
-
-    pageimReading = 0
 }
 
 export default Book;
