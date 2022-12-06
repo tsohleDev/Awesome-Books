@@ -1,7 +1,7 @@
 class Component {
     static bookscontainer = document.querySelector('.books');
 
-    static makeGrey(book, index) {
+    static makeGrey = (book, index) => {
       const isGrey = book.node.classList.contains('grey');
       if (index % 2 === 0 && !isGrey) {
         book.node.classList.add('grey');
@@ -29,7 +29,7 @@ class Component {
       return div;
     };
 
-    static loadFromStorage(myBooks) {
+    static loadFromStorage = (myBooks) => {
       const storage = localStorage.getItem('books');
       if (!storage) { return; }
 

@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   color: black;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 body {
@@ -9,43 +9,65 @@ body {
 }
 
 main {
-  margin: 25vh 0;
+  margin: 10vh 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#time {
+  align-self: flex-end;
 }
 
 p {
-  font-size: 1vw;
+  font-size: 2.5vw;
 }
 
 footer {
+  display: flex;
+  align-items: center;
   position: fixed;
   bottom: 0;
-  width: 94%;
+  left: 1%;
+  height: 8vh;
+  width: 93.6%;
   border: 2px solid black;
   padding: 0 2vw;
+}
+
+footer p {
+  font-size: 3vw;
+  margin: 0;
 }
 
 header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
   border: 2px solid black;
-  width: 94%;
+  height: 8vh;
+  width: 93.6%;
   padding: 0 2vw;
+}
+
+header p {
+  font-size: 5vw;
+  font-weight: 800;
+  color: peru;
 }
 
 a {
   text-decoration: none;
   border-left: 1px solid black;
   color: black;
-  font-size: 1vw;
-  padding: 0 2vw;
+  font-size: 3vw;
+  padding: 0 3vw;
 }
 
 a:hover {
   color: gray;
-  font-size: 1.5vw;
+  font-size: 3.5vw;
 }
 
 a:active {
@@ -55,12 +77,29 @@ a:active {
 #list {
   display: none;
   text-align: center;
+  min-height: 20vh;
 }
 
 #contact {
   display: none;
   flex-direction: column;
-  margin: 0 33%;
+  align-items: center;
+}
+
+#contact p {
+  font-size: 3vh;
+  line-height: 5vh;
+  color: grey;
+}
+
+#semi-colons {
+  font-size: 3.5vw;
+  font-weight: 800;
+  color: peru;
+}
+
+li {
+  line-height: 6vh;
 }
 
 div {
@@ -71,17 +110,19 @@ div {
 
 form input {
   height: 5vh;
+  border: 1px solid peru;
 }
 
 button {
   border: 4px solid black;
   width: 20vw;
+  color: peru;
 }
 
 form button {
   align-self: flex-end;
   height: 4vh;
-  width: 5vw;
+  width: 20vw;
 }
 
 button:hover {
