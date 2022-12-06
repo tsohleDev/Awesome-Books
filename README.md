@@ -190,7 +190,7 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -201,12 +201,6 @@ Example:
 - GitHub: [@githubhandle](https://github.com/tsohleDev)
 - Twitter: [@twitterhandle](https://twitter.com/RealTsohle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tsohle-mokhemisi-3687401b2/)
-
-👤 **Shakespear Samu**
-
-- GitHub: [@githubhandle](https://github.com/shakespear95)
-- Twitter: [@twitterhandle](https://twitter.com/Taku16671414)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shakespear-takudzwa-samu-b61b38a3/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
