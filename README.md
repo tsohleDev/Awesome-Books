@@ -55,11 +55,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
 <!-- > A dynamic site book library site, where the user can add books and remove them, whenever they want. -->
 
-**[Awesome Books]** is a website created by javaScript to be dynamic and store books data on the client side, so that the data is persistant, and the user can add or remove any book they want.
+**Awesome Books** is a website created by javaScript to be dynamic and store books data on the client side, so that the data is persistant, and the user can add or remove any book they want.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -90,9 +90,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Store data on the browser]**
-- **[Add Books dynamically]**
-- **[Remove books dynamically]**
+- **Store data on the browser**
+- **Add Books dynamically**
+- **Remove books dynamically**
 
 <!-- LIVE DEMO -->
 
