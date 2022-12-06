@@ -65,8 +65,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -92,13 +90,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Store data on the browser]**
 - **[Add Books dynamically]**
 - **[Remove books dynamically]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -139,7 +133,7 @@ Clone this repository to your desired folder: -->
 Commands:
 
 ```sh
-  git clone git@github.com/shakespear95/Awesome-books.git
+  git clone git@github.com/tsohleDev/Awesome-Books.git
 ```
 
 <!-- ### Install
@@ -176,7 +170,6 @@ Command:
 ```sh
     npx eslint .
 ```
--
 
 ### Deployment
 
@@ -190,11 +183,9 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHOR -->
+<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
+## 👥 Author <a name="authors"></a>
 
 👤 **Tsohle Mokhemisi**
 
