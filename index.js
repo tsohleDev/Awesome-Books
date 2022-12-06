@@ -1,7 +1,9 @@
 import Books from './Books.js';
 import Component from './Component.js';
+import { DateTime } from './luxon.js';
 
 const Form = document.getElementById('booksform');
+const time = document.getElementById('time');
 let myBooks = null;
 
 Form.onsubmit = () => {
@@ -10,8 +12,10 @@ Form.onsubmit = () => {
 
 window.addEventListener('DOMContentLoaded', () => {
   myBooks = new Books();
+  time.innerHTML = DateTime.now().toFormat('MMMM dd, yyyy hh:mm');
   Component.loadFromStorage(myBooks);
 });
+
 // Single Page
 const links = document.querySelectorAll('#link');
 const h1 = document.querySelector('#heading');
